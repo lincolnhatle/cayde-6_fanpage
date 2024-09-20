@@ -3,7 +3,7 @@
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
   margin: 10px;
-  /* height: 350px; */
+  height: 350px;
   }
 
   /*fun different hover effects! */
@@ -29,7 +29,7 @@ img {
 
   /* For the page sections */
 .big_container {
-  background-color: rgba(0,0,0, .2);
+  background-color: rgba(0, 0, 0, .5);
   border-style: solid;
   border-width: thin;
   border-radius: 20px;
@@ -37,6 +37,16 @@ img {
   padding: 10px
 }
 
-/* body {
-background-color: aquamarine;
+/* Dark mode */
+/* .big_container {
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-width: thin;
+  border-radius: 20px;
+  margin: 50px 50px;
+  padding: 10px
+}
+
+body {
+background-color: rgba(0, 100, 155, .5);
 } */
