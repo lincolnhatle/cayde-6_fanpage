@@ -1,9 +1,9 @@
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px; /* 5px rounded corners */
-    margin: 10px;
-    height: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  margin: 10px;
+  /* height: 350px; */
   }
 
   /*fun different hover effects! */
@@ -18,20 +18,25 @@
 }
   
   /* Add rounded corners to the top left and the top right corner of the image */
-  img {
-    border-radius: 5px 5px 0 0;
-  }
+img {
+  border-radius: 5px 5px 0 0;
+}
 
   /* Add some padding inside the card container */
 .container {
-    padding: 2px 16px;
-  }
+  padding: 2px 16px;
+}
 
   /* For the page sections */
 .big_container {
-    border-style: solid;
-    border-width: thin;
-    border-radius: 5px;
-    margin: 50px 50px;
-    padding: 10px
+  background-color: rgba(0,0,0, .2);
+  border-style: solid;
+  border-width: thin;
+  border-radius: 20px;
+  margin: 50px 50px;
+  padding: 10px
 }
+
+/* body {
+background-color: aquamarine;
+} */
