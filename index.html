@@ -20,6 +20,10 @@
 </head>
 
 <body>
+    <!-- dark and light mode -->
+    <button onclick="darkMode()" style="color:white; background-color: midnightblue;">Dark Mode</button>
+    <button onclick="lightMode()">Light Mode</button>
+
     <!-- page welcome -->
     <h1 class="display-3 text-primary text-center">
         Welcome to Cayde-6's Fanpage!
@@ -201,5 +205,27 @@
         </div>
     </div>
 </body>
+
+<script>
+    function lightMode() {
+        const collection = document.getElementsByClassName("big_container");
+        const len = collection.length;
+        for(i = 0; i < len; i++)
+        {
+            collection[i].style.background = "white";
+        }
+    }
+</script>
+
+<script>
+    function darkMode() {
+        const collection = document.getElementsByClassName("big_container");
+        const len = collection.length;
+        for(i = 0; i < len; i++)
+        {
+            collection[i].style.background = "rgb(150, 150, 150)";
+        }
+    }
+</script>
 
 </html>

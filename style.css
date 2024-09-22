@@ -29,17 +29,7 @@ img {
 
   /* For the page sections */
 .big_container {
-  background-color: rgba(0, 0, 0, .5);
-  border-style: solid;
-  border-width: thin;
-  border-radius: 20px;
-  margin: 50px 50px;
-  padding: 10px
-}
-
-/* Dark mode */
-/* .big_container {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(150, 150, 150);
   border-style: solid;
   border-width: thin;
   border-radius: 20px;
@@ -48,5 +38,9 @@ img {
 }
 
 body {
-background-color: rgba(0, 100, 155, .5);
-} */
+  background-color: rgba(0, 100, 155, .5);
+}
+
+button {
+  margin: 2px;
+}
