@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="bg" style="background-color: rgba(0, 0, 0, 1);">
     <!-- dark and light mode -->
     <button onclick="darkMode()" style="color:white; background-color: midnightblue;">Dark Mode</button>
     <button onclick="lightMode()">Light Mode</button>
@@ -94,7 +94,8 @@
             a journal containing Ace's name. The memories, or lack of, his son 'Ace', and Ace's mother, the 'Queen of Hearts', drove Cayde
             to search for answers in the Vault of Glass. A timeless realm the Vex used in the endless simulations. While he never recovered all the memories
             of his past life, he kept writing Ace and his Queen his journal, preserving their memory beyond his eventual resets.
-
+            <br>
+            <br>
             Before he became an Exo, Cayde was a human soldier. He was approached by Clovis Bray to join the Exo program and remove his
             debt by joining the Exo program. After becoming in Exo, he lived in a colony on Europa working for Bray Exoscience. At one ponit he was assigned
             as security for a woman named Dr. Maya Sunderesh. It is speculated that the Queen of Hearts he refers to in his journal is actually Dr. Sunderesh,
@@ -119,13 +120,22 @@
         <h3>Last Stand</h3>
         <p>
             Cayde-6, alongside the Guardian, traveled to the Reef to help Petra Venj quell a breakout from the Prison of Elders. After helping restore security, Cayde pursued the escaping Scorn Barons
-            but was ambushed by them. During the fight, Pirrha, the Rifleman, destroyed Cayde’s Ghost, leaving him vulnerable to death. In a last stand worthy of only the truest Gunslingers, Cayde fought defiantly but was overpowered
+            but was ambushed by them. During the fight, Pirrha, the Rifleman, destroyed Cayde’s Ghost, leaving him vulnerable to a true death. In a last stand worthy of only the truest Gunslingers, Cayde fought defiantly but was overpowered
             and confronted by Uldren Sov, who fatally shot him with Cayde’s own weapon, the Ace of Spades. Before dying, Cayde taunted Uldren and asked the Guardian not to blame themselves for his death.
             His final words to the Guardian were to relay messages to Ikora and Zavala, marking the end of his life and spurring the Guardian to seek revenge.
         </p>
         <h3>Destiny Jesus?!?!</h3>
         <p>
-            I need to play Final Shape before I can update this part.
+            In the years after Cayde-6's death, a new threat emerged in the Sol system—the Witness, a being of pure hate and darkness responsible for humanity's Collapse.
+             As it sought to complete The Final Shape, merging the Traveler with the Vale, Vanguard Scout Crow made a wish to enter the Traveller and stop the Witness. 
+             Once known as Uldren Sov, the man who killed Cayde-6, Crow’s wish twisted his desires and resurrected Cayde as a being of Light. Though ghostless and unable
+              to wield the Light, Cayde was determined to help the forces of Light defeat the Witness.
+            <br>
+            <br>
+            Cayde forgave Crow for the sins of his past life, and even gave him the title of new Hunter Vanguard. After his death Cayde, along with his ghost 
+            Sundance, became one with the Traveller and its light. Cayde was part of both confrontations with the Witness, fighting bravely though lightless.
+            In the final battle, Ghost sacrifices himself chanels the Guardians light to defeat the Witness in a blinding flash. Cayde then gave up his own light,
+            his very being, to breath life back into Ghost. "My choice. My light. Nobody makes my fate but me." <em>-Cayde-6</em>
         </p>
     </div>
 
@@ -175,10 +185,10 @@
             </div>
             <div class="col-sm">
                 <div class="card">
-                    <img src="images/cayde-6_7.jpg" alt="Cayde-6 Forsaken" style="width: 100%;">
+                    <img src="images/cayde-6_harmonica.jpg" alt="Cayde-6 Harmonica" style="width: 100%;">
                     <div class="container">
-                        <!-- <p>Ye olde watering hole</p> -->
-                        <p>"Nobody makes my fate but me."<br><em>-Cayde-6</em></p>
+                        <!-- <p>Harmonica whiz</p> -->
+                        <p>"It's real good to see you two. I finally have someone to talk to about Crow's stupid haricut."<br><em>-Cayde-6</em></p>
                     </div>
                 </div>
             </div>
@@ -208,6 +218,7 @@
 
 <script>
     function lightMode() {
+        document.getElementById("bg").style.background = "rgba(0, 100, 155, .5)";
         const collection = document.getElementsByClassName("big_container");
         const len = collection.length;
         for(i = 0; i < len; i++)
@@ -219,6 +230,7 @@
 
 <script>
     function darkMode() {
+        document.getElementById("bg").style.background = "rgba(0, 0, 0, 1)";
         const collection = document.getElementsByClassName("big_container");
         const len = collection.length;
         for(i = 0; i < len; i++)
